@@ -1,0 +1,145 @@
+
+.num {
+  float: left;
+  padding-right: 1.6px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-stretch: condensed;
+  line-height: 36px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+}
+body {
+  width: 1024px;
+  margin: 0;
+}
+
+
+
+.slider1 {
+  position: absolute;
+  width: 533px;  
+  height: 512px;
+  top: 10px;
+  left: 300px;   
+  background: center no-repeat;
+  background-image: url(../img/sad.png);
+}
+.button {
+  float: left;
+  display: block;
+  width: 209px;
+  height: 75px;
+  cursor: pointer;
+}
+.tab {
+  position: absolute;
+  top: 299px;
+  left: 80px;
+  display: block;
+  width: 100px;
+  height: 42px;
+  transform: rotate(45deg);
+  background: url(../img/780px-Pill.svg[1].png) center no-repeat;
+  background-size: 100%;
+  z-index: 999;
+}
+.slider {
+  box-sizing: border-box;
+  position: relative;
+  width: 1024px;
+  height: 768px;
+  background: white url(../img/back.png) center no-repeat;
+}
+
+.logo {
+  padding: 20px;
+  font-size: 55px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding-bottom: 5px;
+}
+
+.main-text {
+  padding-left: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-stretch: condensed;
+}
+form {
+  margin-top: 410px;
+  padding: 0 135px 0 155px;
+}
+.logo sup {
+  font-size: 20px;
+  font-weight: 200;
+}
+.range {
+  width: 100%;
+  position: relative;
+}
+
+.range a:focus {
+  outline: none;
+}
+
+
+.btn-wrapper {
+	position: absolute;
+	display: block;
+	margin-left: 50%;
+	width: 650px;
+	height: 75px;
+	left: -300px;
+	bottom: 80px; 
+}
+html {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: #3c7ec5;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.range a {
+  diplay: block;
+  z-index: 2;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: url(../img/roller-white.png) center no-repeat;
+  background-size: 100%;
+  top: -30px;
+  margin-left: -40px;
+}
+.button.day {
+  background-image: url(../img/day-button.png);
+}
+.nums {
+  position: absolute;
+  height: 70px;
+  padding: 0 110px 0 130px;
+  bottom: 250px;
+}
+
+.num.active {
+  background: url(../img/roller-red.png) center no-repeat;
+}
+.button.week {
+  background-image: url(../img/week-button.png);
+}
+.button.mounth {
+  background-image: url(../img/mounth-button.png);
+}
+#day:checked ~ .button.day {
+  background-image: url(../img/day-pushed-button.png);
+}
+#week:checked ~ .button.week {
+  background-image: url(../img/week-pushed-button.png);
+}
+#mounth:checked ~ .button.mounth {
+  background-image: url(../img/mounth-pushed-button.png);
+}
