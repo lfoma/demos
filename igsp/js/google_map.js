@@ -8,7 +8,7 @@ function init() {
     
     var mapOptions = {
         
-        zoom: 17,
+        zoom: 19,
 
         
         center: myLatlng,
