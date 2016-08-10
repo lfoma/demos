@@ -1,0 +1,220 @@
+
+@media (max-width:400px) {
+    .login .modal-dialog {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .row-bottom-padded-sm {
+        padding-bottom: 2em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .row-bottom-padded-md {
+        padding-bottom: 2em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .row-bottom-padded-lg {
+        padding-bottom: 2em;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #map {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aic-nav-toggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aic-nav-toggle {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .section-heading h3 {
+        font-size: 16px !important;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-heading h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 992px)  {
+    #aic-team .team-box {
+        margin-bottom: 110px;
+    }
+
+   
+}
+
+@media screen and (max-width: 768px) {
+    .core-features .grid2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .getting-started .getting-grid,
+    .getting-started .getting-grid2 {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #aic-testimony .wrap-testimony .testimony-slide blockquote {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aic-project .project-grid .desc {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #aic-home .text-inner .call-to-action a.demo {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #aic-header .navbar-default {
+        margin-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #aic-header.navbar-fixed-top #navbar li.active a span:before {
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #aic-header.navbar-fixed-top #navbar li.active a {
+        color: #FA5555 !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #aic-header.navbar-fixed-top #navbar li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #aic-header .navbar-brand {
+        padding-left: 55px !important;
+        padding-right: 0 !important;
+    }
+    #aic-header .navbar-brand:after,
+    #aic-header .navbar-brand:before {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #aic-header #navbar li.active a span {
+        display: inline-block;
+        color: #FA5555;
+    }
+    #aic-header #navbar li.active a span:before {
+        bottom: 0;
+        height: 0;
+        background: transparent;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #aic-header #navbar li.active a span:before {
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #aic-header #navbar li.active a {
+        background: transparent;
+        background: none;
+    }
+}
+
+@media screen and (max-width: 992px) and (max-width: 480px) {
+    #aic-header #navbar li.active a {
+        color: #FA5555;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #aic-header #navbar li.active a {
+        color: #FA5555;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #aic-header #navbar li a {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        font-size: 20px;
+    }
+
+    #aic-header #navbar .navbar-right {
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+   
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+   
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+   
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+
+
