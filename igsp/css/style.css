@@ -1783,7 +1783,6 @@ h6 {
     box-sizing: border-box;
     -webkit-text-size-adjust: none
 }
-/* Form */
 
 ._form {
     width: 100%;
@@ -2033,7 +2032,6 @@ h6 {
     display: inline-block;
     margin-left: 1%;
     margin-bottom: 1%;
-    vertical-align: bottom;
 }
 
 .file-drop {
@@ -2091,35 +2089,18 @@ h6 {
 
 .text-drop {
     margin-top: 2%;
-    border:1px dotted black;
-    display: inline-block;
-    width: 375px;
-    height: 75px;
     
-}
-.image-drop{
-    display: inline-block;
-    height: 70px;
 }
 
 .map-block {
-    position: relative;
-    z-index: 9999; /* z-index должен быть больше, чем у Google Maps */
     width: 300px;
-    margin: 60px auto 0;
-    padding: 10px;
-    background: black;
-    height: auto;
-    opacity: .45; /* Устанавливаем прозрачность у Google Form */
-    color: white;
-}
-.aic-map{
-    height: 100%;
-    width: 100%;
-    position:absolute;
-    top: 0;
-    left: 0;
-    z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+    height: 400px;
+    background-color: #fafafc;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(17, 17, 18, 0.1);
+    position: relative;
+    top: 9%;
+    left: 60%;
 }
 
 .map-image {
@@ -2140,7 +2121,7 @@ h6 {
     width: 51px;
     height: 2px;
     background-color: black;
-    margin: 5% 0 4% 42%;
+    margin: 5% 0 0 42%;
 }
 
 .text-map-down {
