@@ -9,7 +9,3 @@ $(function() {
 
 });
 })(jQuery);
-
-$( function() {
-    $( "#selectable" ).selectable();
-  } );
